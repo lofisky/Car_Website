@@ -1,0 +1,39 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: sans-serif; }
+
+main { height: calc(100vh - 120px); }
+header, nav, section { padding: 20px 20px; }
+nav { min-width: 120px; }
+
+
+header{
+  background-color: teal;
+}
+.company{
+  color: white;
+}
+.contact{
+  color: DarkSlateGrey;
+}
+nav{
+  background-color: CadetBlue;
+}
+h2{
+  color: DarkSlateGrey;
+}
+.name{
+  color: Teal;
+}
+.cost{
+  color: DarkSlateGrey;
+}
+.selected{
+  border: 2px solid teal;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  display: flex;
+  flex-direction: row;
+}
